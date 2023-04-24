@@ -35,7 +35,7 @@ protected:
 	UPROPERTY(EditAnywhere)
 		UStaticMeshComponent* PlaneComponent;
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY(BlueprintReadWrite)
 		UTextRenderComponent* TextComponent;
 
 	USceneComponent* SceneComponent;
